@@ -34,7 +34,7 @@ package {
 			//trace(keysNode);
 
 			trace("res:",
-					HkmlCompiler.compile("A+C>>D>100>bb>100>"));
+					HkmlCompiler.compile("A+C>>D>100>bb"));
 			/*trace(keysNode.testKeys(Keyboard.A, 10), keysNode.finished);
 			trace(keysNode.testKeys(Keyboard.B, 10), keysNode.finished);
 			trace(keysNode.testKeys(Keyboard.C, 10), keysNode.finished);*/

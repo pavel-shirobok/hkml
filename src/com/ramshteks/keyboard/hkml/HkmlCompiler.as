@@ -13,7 +13,7 @@ package com.ramshteks.keyboard.hkml
 		private static const TOKEN_SEQ:String = "seq";
 
         private static const OPERATOR:String = "operator";
-        private static const VALUE:String = "value";
+        private static const KEY:String = "value";
 
 		private static const SEQ:String = ">";
 		private static const COMB:String = "+";
@@ -85,20 +85,21 @@ package com.ramshteks.keyboard.hkml
 		private static function buildKeysNodes(tokens:Array):Vector.<KeysNode> {
 			var keysNodes:Vector.<KeysNode> = new Vector.<KeysNode>();
 
-            //var currentKeyNodes:KeysNode;
-            //return null;
-
-            var delay:int = 0;
 			var token:Object;
 			var currentType:String;
             var currentValue:String;
             var currentIndex:int;
 
+            var previousToken:Object;
+            var delay:int = 0;
             var buffer:Array = [];
-            var currentTokenType:String;
-            var expectedTokenType:String = VALUE;
+            var commitIsNeeded:Boolean;
+            var currentSequenceType:String;
+            var expectedTokenType:String = KEY;
             for(var i:int = 0; i<tokens.length; i++){
 				token = tokens[i];
+
+                previousToken = i == 0?null:tokens[i-1];
 
                 currentType = token.name;
                 currentValue = token.value;
@@ -109,64 +110,50 @@ package com.ramshteks.keyboard.hkml
                     throw new HkmlBuildError("Unexpected token '"+currentValue+"' with type '"+currentType+"'", currentIndex);
                 }
 
+                if(i == tokens.length - 1 && (currentType==TOKEN_OR || currentType==TOKEN_SEQ)){
+                    throw new HkmlBuildError("Line must be ended by key", currentIndex);
+                }
+
                 //unexpected token type
                 if(expectedTokenType == OPERATOR && (currentType==TOKEN_KEY)){
                     throw new HkmlBuildError("Expected operator token", currentIndex);
                 }
 
-                if(expectedTokenType == VALUE && (currentType!=TOKEN_KEY)){
+                if(expectedTokenType == KEY && (currentType!=TOKEN_KEY)){
                     throw new HkmlBuildError("Expected key token", currentIndex);
                 }
 
                 switch(currentType){
-                    case TOKEN_SEQ:
-                        /*if(currentTokenType== TOKEN_BEGIN || currentTokenType == TOKEN_SEQ){
-                            if(tokens.length - 1 == i){
-                                throw new HkmlBuildError("Unexpected end", index);
-                            }
-
-                            var nextToken:Object = tokens[i+1];
-
-                            if(nextToken.name==TOKEN_SEQ){
-                                i++;
-                                expectedTokenType = VALUE;
-                            }else{
-                                delay = parseInt(nextToken.value);
-                                if(String(delay) == nextToken.value){
-                                    keysNodes.push(createKeysNode(buffer, type, 0));
-
-                                    expectedTokenType = VALUE;
-                                }else{
-                                    throw new HkmlBuildError("Incorrect delay value", index);
-                                }
-                            }
-
-                        }else{
-                            currentTokenType = TOKEN_BEGIN;
-                            buffer = [];
-                            i--;
-                        }*/
-                        break;
                     case TOKEN_OR:
-                        if(currentTokenType== TOKEN_BEGIN || currentTokenType == TOKEN_OR){
-                            if(tokens.length - 1 == i){
-                                throw new HkmlBuildError("Unexpected end", index);
-                            }
-
-                            expectedTokenType = VALUE;
-                        }else{
-                            currentTokenType = TOKEN_BEGIN;
+                    case TOKEN_SEQ:
+                        if(currentSequenceType==null){
+                            delay = 0;
                             buffer = [];
-                            i--;
+                            currentSequenceType = currentType;
+                        }else{
+                            if(currentSequenceType != currentType){
+                                commitIsNeeded = true;
+                            }else{
+
+                            }
                         }
+
+
+                        expectedTokenType = KEY;
                         break;
+
                     case TOKEN_KEY:
                         buffer.push(currentValue);
-                        expectedTokenType = OPERATOR;
-                        if(i == tokens.length - 1){
-                            //commit
+                        if(i == tokens.length-1){
+                            commitIsNeeded = true;
                         }
+                        expectedTokenType = OPERATOR;
                         break;
+                }
+                if(commitIsNeeded){
+                    commitIsNeeded = false;
+                    keysNodes.push(createKeysNode(buffer, currentSequenceType, delay));
+                    delay = parseInt(currentValue);
                 }
 			}
 
