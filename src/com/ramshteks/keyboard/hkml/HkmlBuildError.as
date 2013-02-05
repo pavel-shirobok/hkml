@@ -5,7 +5,7 @@ package com.ramshteks.keyboard.hkml {
 	 */
 	public class HkmlBuildError extends Error {
 		private var _index:int;
-		public function HkmlBuildError(message, index:int) {
+		public function HkmlBuildError(message:String, index:int) {
 			super(message);
 			_index = index;
 		}
