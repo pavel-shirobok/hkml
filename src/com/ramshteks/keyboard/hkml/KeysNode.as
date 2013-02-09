@@ -104,7 +104,7 @@ package com.ramshteks.keyboard.hkml {
 
 
 		public function toString():String {
-			return (_delay != -1 ? ("(" + _delay + ")") : "") + _keys.join(_orMode?"+":">>");
+			return "(" + (_delay > 0 ? (_delay + ":") : "") + _keys.join(_orMode?"+":">>") + ")";
 		}
 	}
 }

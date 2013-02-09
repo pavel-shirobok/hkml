@@ -7,13 +7,19 @@
     <file path="/fragment.js2" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1359889197688" ignored="false" />
     <file path="/Expression.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1359687725482" ignored="false" />
     <file path="/KeysNode.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1359703490121" ignored="false" />
-    <file path="/Main.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1359889486029" ignored="false" />
+    <file path="/Main.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360434490249" ignored="false" />
     <file path="/KeyCombination.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1359707313985" ignored="false" />
     <file path="/KeysNodesBuilder.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1359706121550" ignored="false" />
     <file path="/HkmlBuilder.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1359707312922" ignored="false" />
     <file path="/HkmlBuildError.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360035089929" ignored="false" />
-    <file path="/HkmlCompiler.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360038234447" ignored="false" />
+    <file path="/HkmlCompiler.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360434870660" ignored="false" />
     <file path="/fragment.js" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360035252831" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mydocs/work/android/RemoteUDPController2/gen/rudp/controller/R.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360411960560" ignored="false" />
+    <file path="/fragment.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360412146267" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mydocs/work/android/RemoteUDPController2/gen/rudp/controller/Manifest.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360411960560" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mydocs/work/android/RemoteUDPController2/src/rudp/controller/SettingsSource.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360417704414" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mydocs/work/android/RemoteUDPController2/src/rudp/controller/RUDPSocket.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360417764398" ignored="false" />
+    <file path="/RUDPSocket.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360417762769" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +82,16 @@
       <file leaf-file-name="HkmlCompiler.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlCompiler.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="89" selection-start="4006" selection-end="4006" vertical-scroll-proportion="0.64102566">
+            <state line="118" column="40" selection-start="4131" selection-end="4131" vertical-scroll-proportion="0.18367347">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KeysNode.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/KeysNode.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="106" column="51" selection-start="2211" selection-end="2211" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -85,7 +100,7 @@
       <file leaf-file-name="Main.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="55" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.0">
+            <state line="24" column="29" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#11#59#0" expanded="true" />
               </folding>
@@ -112,8 +127,8 @@
         <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/kml/KmlBuilder.as" />
         <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/KmlBuilder.as" />
         <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlBuilder.as" />
-        <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/KeysNode.as" />
         <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlBuildError.as" />
+        <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/KeysNode.as" />
         <option value="$PROJECT_DIR$/src/Main.as" />
         <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlCompiler.as" />
       </list>
@@ -122,7 +137,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1376" />
     <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -235,7 +250,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../mydocs/work/android/RemoteUDPController2" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -452,7 +467,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -460,7 +475,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21212122" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -472,7 +487,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24924242" sideWeight="0.7878788" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25038052" sideWeight="0.6666667" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -539,7 +554,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="6" />
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -589,25 +604,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/KeysNode.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="51" selection-start="2211" selection-end="2211" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="55" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.0">
+        <state line="24" column="29" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#11#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/KeysNode.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="24" selection-start="430" selection-end="430" vertical-scroll-proportion="0.23717949">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlCompiler.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="89" selection-start="4006" selection-end="4006" vertical-scroll-proportion="0.64102566">
+        <state line="118" column="40" selection-start="4131" selection-end="4131" vertical-scroll-proportion="0.18367347">
           <folding />
         </state>
       </provider>

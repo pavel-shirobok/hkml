@@ -22,23 +22,12 @@ package {
 
 			var keysNode:KeysNode = new KeysNode(keys, -1, false);
 
-			/*trace(keysNode.testKeys(Keyboard.A, getTimer() - 4), keysNode.finished);
-			trace(keysNode.testKeys(Keyboard.C, getTimer() - 5), keysNode.finished);
-			trace(keysNode.testKeys(Keyboard.C, getTimer() - 5), keysNode.finished);
-			trace(keysNode.testKeys(Keyboard.A, getTimer() - 4), keysNode.finished);
-			trace(keysNode.testKeys(Keyboard.C, getTimer() - 5), keysNode.finished);
-			trace(keysNode.testKeys(Keyboard.B, getTimer()  - 20), keysNode.finished);*/
-
 			keysNode.reset();
-
-			//trace(keysNode);
-
-			trace("res:",
-					HkmlCompiler.compile("A+C>>D>100>bb"));
-			/*trace(keysNode.testKeys(Keyboard.A, 10), keysNode.finished);
-			trace(keysNode.testKeys(Keyboard.B, 10), keysNode.finished);
-			trace(keysNode.testKeys(Keyboard.C, 10), keysNode.finished);*/
-
+			trace("res0:",HkmlCompiler.compile("A+B>>C>100>D"));
+			trace("res1:",HkmlCompiler.compile("A+B>>C>>D"));
+			trace("res2:",HkmlCompiler.compile("D>100>B>100>C"));
+			trace("res3:",HkmlCompiler.compile("D>100>B+A"));
+			trace("res4:",HkmlCompiler.compile("A+B+C>>D>>E>>F>100>G"));
 		}
 	}
 }

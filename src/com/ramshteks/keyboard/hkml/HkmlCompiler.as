@@ -21,7 +21,7 @@ import flash.ui.Keyboard;
 		public static function compile(combination:String):Vector.<KeysNode> {
 			trace(combination);
             var tokens:Array = tokenize(combination);
-            trace(tokens);
+            //trace(tokens);
 			var keysNodes:Vector.<KeysNode> = buildKeysNodes(tokens);
 			return keysNodes;
 		}
@@ -87,7 +87,10 @@ import flash.ui.Keyboard;
 			var currentType:String;
             var currentValue:String;
             var currentIndex:int;
+            var buffer:Array = [];
+            var delay:int = 0;
 
+            var lastOperation:String = null;
             for(var i:int = 0; i<tokens.length; i++){
 				token = tokens[i];
                 currentType = token.name;
@@ -104,8 +107,44 @@ import flash.ui.Keyboard;
                     throw new HkmlBuildError("Line must be ended by key", currentIndex);
                 }
 
+                switch(currentType){
+                    case TOKEN_KEY:
+                        buffer.push(currentValue);
+                        break;
+
+                    default :
+                        var parsedDelay:Number = parseFloat(currentValue);
+                        var correctDelayed:Boolean = (-1!= parsedDelay && !isNaN(parsedDelay));
+                        if(lastOperation==null){
+                            //first turn
+                            if(correctDelayed){
+                                keysNodes.push(createKeysNode(buffer, currentType, delay, token.index));
+                                buffer = [];
+                                delay = parsedDelay;
+                            }else{
+                                lastOperation = currentType;
+                            }
+                        } else {
+                            //other turn
+                            if(lastOperation!=currentType || correctDelayed){
+                                keysNodes.push(createKeysNode(buffer, lastOperation, delay, token.index));
+                                buffer = [];
+                                delay = parsedDelay;
+                                lastOperation = correctDelayed?null:currentType;
+                            }else{
+                                lastOperation = currentType;
+                            }
+                        }
+
+                        break;
+                }
 
 			}
+
+            if(buffer.length!=0){
+                keysNodes.push(createKeysNode(buffer, lastOperation, delay, token.index));
+            }
+
 
             return keysNodes;
         }
