@@ -8,10 +8,14 @@ package com.ramshteks.keyboard.hkml {
 	public class HkmlVM {
 
 		private var _currentKeysNodeIndex:int = 0;
-		private var _keysNodes:Vector.<KeysNode>;
 		private var _lastCompleteTime:int = 0;
+		private var _keysNodes:Vector.<KeysNode>;
 
 		public function HkmlVM(keysNodes:Vector.<KeysNode>) {
+			if(_keysNodes.length==0){
+				throw new ArgumentError("Keys nodes must be more, than one");
+			}
+
 			_keysNodes = keysNodes;
 			reset();
 			updateLastCompleteTime();

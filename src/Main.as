@@ -1,7 +1,6 @@
 package {
 	import com.ramshteks.keyboard.hkml.HkmlCompiler;
 	import com.ramshteks.keyboard.hkml.HkmlVM;
-	import com.ramshteks.keyboard.hkml.KeysNode;
 
 	import flash.display.Sprite;
 	import flash.ui.Keyboard;
@@ -14,7 +13,7 @@ package {
 		public function Main() {
 			super();
 
-			//win failed:
+			//win failed: I don't know why...
 			testCompiler("A+B>>C>100>D", "HkmlVM{(65+66),(67),(100:68)}", "ABCD", "ABDC");
 			testCompiler("A+B>>C>>D", "HkmlVM{(65+66),(67>>68)}", "ABCD", "CDAS");
 			testCompiler("A+B+C>>D>>E>>F>100>G", "HkmlVM{(65+66+67),(68>>69>>70),(100:71)}", "ABCDEFG", "WQER");
@@ -26,31 +25,27 @@ package {
 
 		}
 
-		private function testCompiler(toCompile:String, compiledToString:String, strToWin:String, strToFail:String):void {
+		private static function testCompiler(toCompile:String, compiledToString:String, strToWin:String, strToFail:String):void {
 			var vm:HkmlVM = HkmlCompiler.compile(toCompile);
 			if(vm.toString()!=compiledToString){
 				trace(toCompile, "compile failed with", compiledToString);
 
 			}else{
-				if(resetVMAndCheckForString(vm, strToWin) == false){
+				if(resetVirtualMachineAndCheckForString(vm, strToWin) == false){
 					trace(toCompile, "str win failed");
 				}
-				if(resetVMAndCheckForString(vm, strToFail) == true){
+				if(resetVirtualMachineAndCheckForString(vm, strToFail) == true){
 					trace(toCompile, "str fail failed");
 				}
 			}
 		}
 
-		private function resetVMAndCheckForString(vm:HkmlVM, str:String):Boolean{
+		private static function resetVirtualMachineAndCheckForString(vm:HkmlVM, str:String):Boolean{
 			vm.reset();
 			for(var i:int = 0; i<str.length; i++){
 				vm.testKey(Keyboard[str.charAt(i).toUpperCase()]);
 			}
 			return vm.isFinished;
-		}
-
-		private function test(key:String, vm:HkmlVM):void{
-			trace(key.toUpperCase(), vm.testKey(Keyboard[key]), vm.isFinished);
 		}
 	}
 }

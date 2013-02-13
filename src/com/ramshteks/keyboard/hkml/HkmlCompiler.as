@@ -72,25 +72,22 @@ package com.ramshteks.keyboard.hkml {
 		}
 
 		private static function createToken(name:String, value:*, index:int):Object {
-			return {
-				name: name,
-				value: value,
-				index: index
-				/*,toString:function():String{return name+":'"+value+"'";}*/};
+			return {name: name, value: value, index: index};
 		}
 
 		private static function buildKeysNodes(tokens:Array):Vector.<KeysNode> {
-			var keysNodes:Vector.<KeysNode> = new Vector.<KeysNode>();
 
+			var keysNodes:Vector.<KeysNode> = new Vector.<KeysNode>();
 			var token:Object;
 			var currentType:String;
 			var currentValue:String;
 			var currentIndex:int;
 			var buffer:Array = [];
 			var delay:int = 0;
-
 			var lastOperation:String = null;
+
 			for (var i:int = 0; i < tokens.length; i++) {
+
 				token = tokens[i];
 				currentType = token.name;
 				currentValue = token.value;
@@ -107,6 +104,7 @@ package com.ramshteks.keyboard.hkml {
 				}
 
 				switch (currentType) {
+
 					case TOKEN_KEY:
 						buffer.push(currentValue);
 						break;
