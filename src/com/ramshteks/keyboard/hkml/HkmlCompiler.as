@@ -1,8 +1,8 @@
 package com.ramshteks.keyboard.hkml
 {
-import flash.ui.Keyboard;
+    import flash.ui.Keyboard;
 
-/**
+    /**
 	 * Class for compiling hkml(Hot Key Markup Language) notation
 	 * @author Pavel Shirobok
 	 */
@@ -18,12 +18,10 @@ import flash.ui.Keyboard;
 		private static const SPACE:String = " ";
 		private static const TAB:String = "\t";
 
-		public static function compile(combination:String):Vector.<KeysNode> {
-			trace(combination);
+		public static function compile(combination:String):HkmlVM {
             var tokens:Array = tokenize(combination);
-            //trace(tokens);
 			var keysNodes:Vector.<KeysNode> = buildKeysNodes(tokens);
-			return keysNodes;
+			return new HkmlVM(keysNodes);
 		}
 
 		private static function tokenize(combination:String):Array {
@@ -77,7 +75,11 @@ import flash.ui.Keyboard;
 		}
 
 		private static function createToken(name:String, value:*, index:int):Object {
-			return {name:name, value:value, index:index, toString:function():String{return name+":'"+value+"'";}};
+			return {
+						name:name,
+						value:value,
+						index:index
+						/*,toString:function():String{return name+":'"+value+"'";}*/};
 		}
 
 		private static function buildKeysNodes(tokens:Array):Vector.<KeysNode> {
@@ -127,15 +129,21 @@ import flash.ui.Keyboard;
                         } else {
                             //other turn
                             if(lastOperation!=currentType || correctDelayed){
-                                keysNodes.push(createKeysNode(buffer, lastOperation, delay, token.index));
-                                buffer = [];
+								if(currentType == TOKEN_OR && buffer.length>1){
+									var lastToken:String = buffer.pop();
+									keysNodes.push(createKeysNode(buffer, lastOperation, delay, token.index));
+									buffer = [lastToken];
+								}else{
+									keysNodes.push(createKeysNode(buffer, lastOperation, delay, token.index));
+									buffer = [];
+								}
+
                                 delay = parsedDelay;
                                 lastOperation = correctDelayed?null:currentType;
                             }else{
                                 lastOperation = currentType;
                             }
                         }
-
                         break;
                 }
 
@@ -145,18 +153,23 @@ import flash.ui.Keyboard;
                 keysNodes.push(createKeysNode(buffer, lastOperation, delay, token.index));
             }
 
-
             return keysNodes;
         }
 
         private static function createKeysNode(buffer:Array, type:String, delay:Number, index:int):KeysNode {
             var keys:Vector.<int> = new Vector.<int>(buffer.length, true);
-            for (var i:int = 0; i < buffer.length; i++) {
-                if(Keyboard[buffer[i]] == undefined){
-                    throw new HkmlBuildError("Unknown key alias '"+buffer[i]+"'", index);
+			var keyStringAlias:String;
+
+			for (var i:int = 0; i < buffer.length; i++) {
+				keyStringAlias = buffer[i];
+
+				if(Keyboard[keyStringAlias] == undefined){
+                    throw new HkmlBuildError("Unknown key alias '"+keyStringAlias+"'", index);
                 }
-                keys[i] = Keyboard[buffer[i]];
+
+                keys[i] = Keyboard[keyStringAlias];
             }
+
             return new KeysNode(keys, delay, type==TOKEN_OR);
         }
 	}

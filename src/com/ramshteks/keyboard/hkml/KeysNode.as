@@ -6,7 +6,7 @@ package com.ramshteks.keyboard.hkml {
 	 * @author ramshteks
 	 */
 	public class KeysNode {
-		public static const NO_TEST_TIME:int = -1;
+		public static const NO_TEST_TIME:int = 0;
 		private var _lastSuccessTestTime:int = NO_TEST_TIME;
 
 		private var _keys:Vector.<int>;
@@ -15,7 +15,7 @@ package com.ramshteks.keyboard.hkml {
 		private var _delay:int;
 		private var _orMode:Boolean;
 
-		public function KeysNode(keys:Vector.<int>, delay:int = -1, orMode:Boolean = false) {
+		public function KeysNode(keys:Vector.<int>, delay:int = 0, orMode:Boolean = false) {
 			_keys = keys;
 			_delay = delay;
 			_orMode = orMode;
@@ -29,7 +29,7 @@ package com.ramshteks.keyboard.hkml {
 
 		public function testKeys(keyCode:int, timeOfCompletePrevKeyNode:int):Boolean {
 			var timer:int = getTimer();
-			if(_delay != -1){
+			if(_delay != 0){
 				if(timer - timeOfCompletePrevKeyNode > _delay){
 					reset();
 					return false;
