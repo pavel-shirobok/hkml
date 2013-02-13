@@ -5,8 +5,6 @@ package {
 
 	import flash.display.Sprite;
 	import flash.ui.Keyboard;
-	import flash.ui.Keyboard;
-	import flash.utils.getTimer;
 
 	/**
 	 * ...
@@ -16,39 +14,39 @@ package {
 		public function Main() {
 			super();
 
-			var keys:Vector.<int> = new Vector.<int>(3);
+			//win failed:
+			testCompiler("A+B>>C>100>D", "HkmlVM{(65+66),(67),(100:68)}", "ABCD", "ABDC");
+			testCompiler("A+B>>C>>D", "HkmlVM{(65+66),(67>>68)}", "ABCD", "CDAS");
+			testCompiler("A+B+C>>D>>E>>F>100>G", "HkmlVM{(65+66+67),(68>>69>>70),(100:71)}", "ABCDEFG", "WQER");
 
-			keys[0] = Keyboard.A;
-			keys[1] = Keyboard.B;
-			keys[2] = Keyboard.C;
+			//all ok
+			testCompiler("D>100>B>100>C", "HkmlVM{(68),(100:66),(100:67)}", "DBC", "CDS");
+			testCompiler("D>100>B+A", "HkmlVM{(68),(100:66+65)}", "DAB", "ABD");
+			testCompiler("G>>A+B+C", "HkmlVM{(71),(65+66+67)}", "GABC", "FABC");
 
-			var keysNode:KeysNode = new KeysNode(keys, -1, false);
+		}
 
-			keysNode.reset();
-			/*trace("res0:",HkmlCompiler.compile("A+B>>C>100>D"));
-			trace("res1:",HkmlCompiler.compile("A+B>>C>>D"));
-			trace("res2:",HkmlCompiler.compile("D>100>B>100>C"));
-			trace("res3:",HkmlCompiler.compile("D>100>B+A"));
-			trace("res4:",HkmlCompiler.compile("A+B+C>>D>>E>>F>100>G"));
-			trace("res5:",HkmlCompiler.compile("G>>A+B+C"));*/
+		private function testCompiler(toCompile:String, compiledToString:String, strToWin:String, strToFail:String):void {
+			var vm:HkmlVM = HkmlCompiler.compile(toCompile);
+			if(vm.toString()!=compiledToString){
+				trace(toCompile, "compile failed with", compiledToString);
 
-			var vm:HkmlVM = HkmlCompiler.compile("G>>A+B+C");
+			}else{
+				if(resetVMAndCheckForString(vm, strToWin) == false){
+					trace(toCompile, "str win failed");
+				}
+				if(resetVMAndCheckForString(vm, strToFail) == true){
+					trace(toCompile, "str fail failed");
+				}
+			}
+		}
 
-			test("G", vm);
-			test("A", vm);
-			test("A", vm);
-			test("B", vm);
-			test("C", vm);
-			trace(vm.isFinished);
-			trace("---------");
-
+		private function resetVMAndCheckForString(vm:HkmlVM, str:String):Boolean{
 			vm.reset();
-			test("G", vm);
-			test("A", vm);
-			test("B", vm);
-			test("C", vm);
-			trace(vm.isFinished);
-
+			for(var i:int = 0; i<str.length; i++){
+				vm.testKey(Keyboard[str.charAt(i).toUpperCase()]);
+			}
+			return vm.isFinished;
 		}
 
 		private function test(key:String, vm:HkmlVM):void{
