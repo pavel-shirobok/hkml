@@ -4,15 +4,15 @@
     <list default="true" id="68c8de43-abaf-455c-846e-e04b84e4f7bf" name="Default" comment="" />
     <ignored path="kml.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.js2" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360956853002" ignored="false" />
+    <file path="/fragment.js2" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360959526138" ignored="false" />
     <file path="/Expression.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1359687725482" ignored="false" />
-    <file path="/KeysNode.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360956532552" ignored="false" />
-    <file path="/Main.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360957609508" ignored="false" />
+    <file path="/KeysNode.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360962057223" ignored="false" />
+    <file path="/Main.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360961276108" ignored="false" />
     <file path="/KeyCombination.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1359707313985" ignored="false" />
     <file path="/KeysNodesBuilder.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1359706121550" ignored="false" />
     <file path="/HkmlBuilder.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1359707312922" ignored="false" />
     <file path="/HkmlBuildError.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360035089929" ignored="false" />
-    <file path="/HkmlCompiler.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360956818211" ignored="false" />
+    <file path="/HkmlCompiler.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360959920098" ignored="false" />
     <file path="/fragment.js" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360035252831" ignored="false" />
     <file path="$PROJECT_DIR$/../../mydocs/work/android/RemoteUDPController2/gen/rudp/controller/R.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360411960560" ignored="false" />
     <file path="/fragment.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360642982169" ignored="false" />
@@ -25,12 +25,13 @@
     <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/NimbleCore.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360647228862" ignored="false" />
     <file path="/NimbleCore.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360647498391" ignored="false" />
     <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/Nimble.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360647525640" ignored="false" />
-    <file path="/HkmlVM.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360956778416" ignored="false" />
-    <file path="/a.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360778218599" ignored="false" />
+    <file path="/HkmlVM.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360959954193" ignored="false" />
+    <file path="/a.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360959084629" ignored="false" />
     <file path="/KeyMaps.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360955862054" ignored="false" />
     <file path="/KeyMap.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360955647035" ignored="false" />
-    <file path="/HkmlKeyboardController.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360957306322" ignored="false" />
+    <file path="/HkmlKeyboardController.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360960776865" ignored="false" />
     <file path="/HkmlEvent.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360956908577" ignored="false" />
+    <file path="/a.dummy" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360959974845" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,13 +91,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HkmlKeyboardController.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlKeyboardController.as">
+      <file leaf-file-name="KeyMap.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/KeyMap.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="21" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#39#76#0" expanded="true" />
-              </folding>
+            <state line="28" column="0" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,37 +103,10 @@
       <file leaf-file-name="Main.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="50" selection-start="1254" selection-end="1254" vertical-scroll-proportion="0.6443149">
+            <state line="27" column="86" selection-start="1110" selection-end="1110" vertical-scroll-proportion="-1.0">
               <folding>
                 <element signature="e#11#59#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HkmlVM.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlVM.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="36" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HkmlCompiler.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlCompiler.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KeyMap.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/KeyMap.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="54" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -156,14 +128,14 @@
         <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/kml/KmlBuilder.as" />
         <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/KmlBuilder.as" />
         <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlBuilder.as" />
-        <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlBuildError.as" />
         <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/KeyMaps.as" />
-        <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/KeyMap.as" />
-        <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/KeysNode.as" />
-        <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlCompiler.as" />
-        <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlEvent.as" />
         <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlVM.as" />
+        <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlBuildError.as" />
+        <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlEvent.as" />
         <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlKeyboardController.as" />
+        <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/KeyMap.as" />
+        <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlCompiler.as" />
+        <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/KeysNode.as" />
         <option value="$PROJECT_DIR$/src/Main.as" />
       </list>
     </option>
@@ -251,28 +223,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hkml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keyboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hkml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -283,7 +233,7 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="preferences.sourceCode.ActionScript" />
+    <property name="options.lastSelected" value="copyright.profiles" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../mydocs/work/android/RemoteUDPController2" />
@@ -610,7 +560,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="26" />
+      <option name="time" value="29" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -660,60 +610,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlBuildError.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="53" selection-start="196" selection-end="196" vertical-scroll-proportion="0.30612245">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/KeyMap.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="54" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/KeysNode.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="8" selection-start="236" selection-end="236" vertical-scroll-proportion="0.28862974">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlEvent.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="8" selection-start="327" selection-end="327" vertical-scroll-proportion="0.5685131">
+        <state line="29" column="0" selection-start="1667" selection-end="1667" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlCompiler.as">
+    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlBuildError.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlVM.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="36" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0">
+        <state line="28" column="0" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.13119534">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlKeyboardController.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="21" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.0">
+        <state line="32" column="0" selection-start="1753" selection-end="1753" vertical-scroll-proportion="0.30612245">
           <folding>
-            <element signature="e#39#76#0" expanded="true" />
+            <element signature="e#1641#1677#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlCompiler.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="55" selection-start="4754" selection-end="4754" vertical-scroll-proportion="-0.16909622">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../sdks/flex4.5.1/frameworks/libs/player/11.0/playerglobal.swc!/library.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9218" column="45" selection-start="398008" selection-end="398008" vertical-scroll-proportion="0.33236152">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/KeysNode.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="12" selection-start="2240" selection-end="2240" vertical-scroll-proportion="0.5947522">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlVM.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="0" selection-start="2220" selection-end="2220" vertical-scroll-proportion="0.33236152">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/KeyMap.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="50" selection-start="1254" selection-end="1254" vertical-scroll-proportion="0.6443149">
+        <state line="27" column="86" selection-start="1110" selection-end="1110" vertical-scroll-proportion="-1.0">
           <folding>
             <element signature="e#11#59#0" expanded="true" />
           </folding>
@@ -726,6 +683,18 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <last-edited>bsd</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
