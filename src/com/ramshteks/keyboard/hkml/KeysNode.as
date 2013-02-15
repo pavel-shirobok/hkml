@@ -54,15 +54,6 @@ package com.ramshteks.keyboard.hkml {
 			}
 		}
 
-		private function existRepeatingKeyCodes(keys:Vector.<int>):Boolean {
-
-			for (var i:int = 0; i < keys.length - 1; i++) {
-				if(keys.indexOf(keys[i], i + 1) != -1)return true;
-			}
-
-			return false;
-		}
-
 		public function checkPressedKey(keyCode:int, timeOfCompletePrevKeyNode:int):Boolean {
 			var timer:int = getTimer();
 			if (_delay != 0) {
@@ -136,6 +127,15 @@ package com.ramshteks.keyboard.hkml {
 		public function destroy():void {
 			_keys = null;
 			_keysStatus = null;
+		}
+
+		private static function existRepeatingKeyCodes(keys:Vector.<int>):Boolean {
+
+			for (var i:int = 0; i < keys.length - 1; i++) {
+				if(keys.indexOf(keys[i], i + 1) != -1)return true;
+			}
+
+			return false;
 		}
 	}
 }
