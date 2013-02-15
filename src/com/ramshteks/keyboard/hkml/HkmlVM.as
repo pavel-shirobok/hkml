@@ -15,7 +15,7 @@ package com.ramshteks.keyboard.hkml {
 		public function HkmlVM(sourceMarkup:String, keysNodes:Vector.<KeysNode>) {
 			_sourceMarkup = sourceMarkup;
 
-			if(_keysNodes.length==0){
+			if(keysNodes.length==0){
 				throw new ArgumentError("Keys nodes must be more, than one");
 			}
 

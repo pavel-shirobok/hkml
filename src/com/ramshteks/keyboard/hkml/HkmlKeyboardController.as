@@ -30,13 +30,13 @@ package com.ramshteks.keyboard.hkml {
 		}
 
 		private function onKeyUp(e:KeyboardEvent):void {
-			//_keyMap.handleKeyUp(e.keyCode);
+			_keyMap.handleKeyUp(e.keyCode);
 		}
 
 		private function onKeyDown(e:KeyboardEvent):void {
 			_keyMap.handleKeyDown(e.keyCode);
 
-			if(_keyMap.state!=_lastKeyMapState){
+			//if(_keyMap.state!=_lastKeyMapState){
 
 				for each(var vm:HkmlVM in _virtualMachines){
 					if(vm.testKey(e.keyCode)){
@@ -51,7 +51,9 @@ package com.ramshteks.keyboard.hkml {
 				}
 
 				_lastKeyMapState = _keyMap.state;
-			}
+			/*}else{
+				trace("old state", _lastKeyMapState)
+			}*/
 		}
 
 		override public function addEventListener(type:String, listener:Function, useCapture:Boolean = false, priority:int = 0, useWeakReference:Boolean = false):void {

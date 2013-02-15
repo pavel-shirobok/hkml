@@ -1,8 +1,11 @@
 package {
 	import com.ramshteks.keyboard.hkml.HkmlCompiler;
+	import com.ramshteks.keyboard.hkml.HkmlEvent;
+	import com.ramshteks.keyboard.hkml.HkmlKeyboardController;
 	import com.ramshteks.keyboard.hkml.HkmlVM;
 
 	import flash.display.Sprite;
+	import flash.events.Event;
 	import flash.ui.Keyboard;
 
 	/**
@@ -10,6 +13,7 @@ package {
 	 * @author ramshteks
 	 */
 	public class Main extends Sprite {
+		private var _controller:HkmlKeyboardController;
 		public function Main() {
 			super();
 
@@ -23,7 +27,22 @@ package {
 			testCompiler("D>100>B+A", "HkmlVM{(68),(100:66+65)}", "DAB", "ABD");
 			testCompiler("G>>A+B+C", "HkmlVM{(71),(65+66+67)}", "GABC", "FABC");
 
+
+			addEventListener(Event.ADDED_TO_STAGE, onAdded)
 		}
+
+		private function onAdded(event:Event):void {
+			removeEventListener(Event.ADDED_TO_STAGE, onAdded);
+
+			_controller = new HkmlKeyboardController(stage);
+			_controller.addEventListener("CONTROL+C", onA_B)
+		}
+
+		private function onA_B(e:HkmlEvent):void {
+			trace(e.type, e.status);
+		}
+
+
 
 		private static function testCompiler(toCompile:String, compiledToString:String, strToWin:String, strToFail:String):void {
 			var vm:HkmlVM = HkmlCompiler.compile(toCompile);
