@@ -18,7 +18,7 @@ package com.ramshteks.keyboard.hkml {
 		public static function compile(combination:String):HkmlVM {
 			var tokens:Array = tokenize(combination);
 			var keysNodes:Vector.<KeysNode> = buildKeysNodes(tokens);
-			return new HkmlVM(keysNodes);
+			return new HkmlVM(combination, keysNodes);
 		}
 
 		private static function tokenize(combination:String):Array {

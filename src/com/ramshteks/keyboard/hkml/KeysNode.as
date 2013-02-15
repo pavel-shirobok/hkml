@@ -7,8 +7,8 @@ package com.ramshteks.keyboard.hkml {
 	 */
 	public class KeysNode {
 		public static const NO_TEST_TIME:int = 0;
-		private var _lastSuccessTestTime:int = NO_TEST_TIME;
 
+		private var _lastSuccessTestTime:int = NO_TEST_TIME;
 		private var _keys:Vector.<int>;
 		private var _keysStatus:Vector.<Boolean>;
 		private var _indexOfKeyToTest:int = 0;
@@ -95,6 +95,11 @@ package com.ramshteks.keyboard.hkml {
 
 		public function toString():String {
 			return "(" + (_delay > 0 ? (_delay + ":") : "") + _keys.join(_orMode ? "+" : ">>") + ")";
+		}
+
+		public function destroy():void {
+			_keys = null;
+			_keysStatus = null;
 		}
 	}
 }

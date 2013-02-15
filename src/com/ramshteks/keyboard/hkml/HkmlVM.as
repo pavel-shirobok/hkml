@@ -10,8 +10,11 @@ package com.ramshteks.keyboard.hkml {
 		private var _currentKeysNodeIndex:int = 0;
 		private var _lastCompleteTime:int = 0;
 		private var _keysNodes:Vector.<KeysNode>;
+		private var _sourceMarkup:String;
 
-		public function HkmlVM(keysNodes:Vector.<KeysNode>) {
+		public function HkmlVM(sourceMarkup:String, keysNodes:Vector.<KeysNode>) {
+			_sourceMarkup = sourceMarkup;
+
 			if(_keysNodes.length==0){
 				throw new ArgumentError("Keys nodes must be more, than one");
 			}
@@ -62,8 +65,19 @@ package com.ramshteks.keyboard.hkml {
 			return _keysNodes.length > 1;
 		}
 
+		public function get sourceMarkup():String {
+			return _sourceMarkup;
+		}
+
 		public function toString():String {
 			return "HkmlVM{" + String(_keysNodes) + "}";
+		}
+
+		public function destroy():void {
+			for each(var keysNode:KeysNode in _keysNodes){
+				keysNode.destroy();
+			}
+			_keysNodes = null;
 		}
 	}
 }
