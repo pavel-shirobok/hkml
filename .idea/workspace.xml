@@ -4,7 +4,7 @@
     <list default="true" id="68c8de43-abaf-455c-846e-e04b84e4f7bf" name="Default" comment="" />
     <ignored path="kml.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.js2" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360778153647" ignored="false" />
+    <file path="/fragment.js2" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360955785595" ignored="false" />
     <file path="/Expression.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1359687725482" ignored="false" />
     <file path="/KeysNode.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1359703490121" ignored="false" />
     <file path="/Main.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360783763234" ignored="false" />
@@ -27,8 +27,9 @@
     <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/Nimble.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360647525640" ignored="false" />
     <file path="/HkmlVM.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360783923305" ignored="false" />
     <file path="/a.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360778218599" ignored="false" />
-    <file path="/KeyMaps.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360784319113" ignored="false" />
-    <file path="/KeyMap.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360784387827" ignored="false" />
+    <file path="/KeyMaps.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360955862054" ignored="false" />
+    <file path="/KeyMap.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360955647035" ignored="false" />
+    <file path="/HkmlKeyboardController.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360955965006" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,13 +89,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.as" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="45" selection-start="315" selection-end="315" vertical-scroll-proportion="-0.8367347">
+            <state line="26" column="9" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#11#59#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HkmlKeyboardController.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlKeyboardController.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="41" selection-start="830" selection-end="830" vertical-scroll-proportion="0.47521865">
+              <folding>
+                <element signature="e#39#76#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KeyMap.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/KeyMap.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="54" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,7 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/ramshteks/keymaps/kml/Expression.as" />
         <option value="$PROJECT_DIR$/src/com/ramshteks/keymaps/kml/KeysNode.as" />
         <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/kml/KeysNode.as" />
         <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/KeyCombination.as" />
@@ -125,6 +145,7 @@
         <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlCompiler.as" />
         <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/KeyMaps.as" />
         <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/KeyMap.as" />
+        <option value="$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlKeyboardController.as" />
       </list>
     </option>
   </component>
@@ -208,6 +229,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="keyboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hkml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="keyboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hkml" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -461,8 +504,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -481,7 +524,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5885168" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5885168" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -626,18 +669,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="9" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#11#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/KeyMap.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="70" selection-start="186" selection-end="186" vertical-scroll-proportion="0.34985423">
+        <state line="29" column="54" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.as">
+    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlKeyboardController.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="45" selection-start="315" selection-end="315" vertical-scroll-proportion="-0.8367347">
+        <state line="24" column="41" selection-start="830" selection-end="830" vertical-scroll-proportion="0.47521865">
           <folding>
-            <element signature="e#11#59#0" expanded="true" />
+            <element signature="e#39#76#0" expanded="true" />
           </folding>
         </state>
       </provider>
