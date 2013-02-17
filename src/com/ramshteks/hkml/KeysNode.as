@@ -25,7 +25,7 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-package com.ramshteks.keyboard.hkml {
+package com.ramshteks.hkml {
 	import flash.utils.getTimer;
 
 	public class KeysNode {

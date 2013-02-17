@@ -1,8 +1,8 @@
 package {
-	import com.ramshteks.keyboard.hkml.HkmlCompiler;
-	import com.ramshteks.keyboard.hkml.HkmlEvent;
-	import com.ramshteks.keyboard.hkml.HkmlKeyboardController;
-	import com.ramshteks.keyboard.hkml.HkmlVM;
+	import com.ramshteks.hkml.HkmlCompiler;
+	import com.ramshteks.hkml.HkmlEvent;
+	import com.ramshteks.hkml.HkmlKeyboardController;
+	import com.ramshteks.hkml.HkmlVM;
 
 	import flash.display.Sprite;
 	import flash.events.Event;

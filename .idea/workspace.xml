@@ -15,16 +15,16 @@
     <file path="/HkmlCompiler.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360959920098" ignored="false" />
     <file path="/fragment.js" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360035252831" ignored="false" />
     <file path="$PROJECT_DIR$/../../mydocs/work/android/RemoteUDPController2/gen/rudp/controller/R.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360411960560" ignored="false" />
-    <file path="/fragment.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360642982169" ignored="false" />
+    <file path="/fragment.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361052469657" ignored="false" />
     <file path="$PROJECT_DIR$/../../mydocs/work/android/RemoteUDPController2/gen/rudp/controller/Manifest.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360411960560" ignored="false" />
     <file path="$PROJECT_DIR$/../../mydocs/work/android/RemoteUDPController2/src/rudp/controller/SettingsSource.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360417704414" ignored="false" />
     <file path="$PROJECT_DIR$/../../mydocs/work/android/RemoteUDPController2/src/rudp/controller/RUDPSocket.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360417764398" ignored="false" />
     <file path="/RUDPSocket.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360417762769" ignored="false" />
-    <file path="$PROJECT_DIR$/../nimble/src/Main.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360647229504" ignored="false" />
-    <file path="/Main.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360646104817" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/Main.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361061022251" ignored="false" />
+    <file path="/Main.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361060850523" ignored="false" />
     <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/NimbleCore.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360647228862" ignored="false" />
     <file path="/NimbleCore.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360647498391" ignored="false" />
-    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/Nimble.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360647525640" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/Nimble.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361001122386" ignored="false" />
     <file path="/HkmlVM.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360959954193" ignored="false" />
     <file path="/a.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360959084629" ignored="false" />
     <file path="/KeyMaps.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360955862054" ignored="false" />
@@ -32,6 +32,83 @@
     <file path="/HkmlKeyboardController.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360960776865" ignored="false" />
     <file path="/HkmlEvent.as" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360956908577" ignored="false" />
     <file path="/a.dummy" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1360959974845" ignored="false" />
+    <file path="/Nimble.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361053722565" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/NimbleExt.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361007255673" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/Accepter.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361009882901" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/ClientCore.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361002995720" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/ConnectionReader.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361003007019" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/Core.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361003025795" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/Connection.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361003001886" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/SDError.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361003040140" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/SupaDupa.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361002908984" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/SupaDupaClient.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361005169118" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/EventMachine.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361000913700" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/event_machine/EventMachine.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361000944221" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/event_machine/EventDispatcher.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361002200833" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/event_machine/Event.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361000992137" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/event_machine/c.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361001044965" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/IAccepter.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361006439533" ignored="false" />
+    <file path="/IAccepter.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361032873683" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/event_machine/SimpleEventDispatcher.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361002532076" ignored="false" />
+    <file path="/SimpleEventDispatcher.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361009127367" ignored="false" />
+    <file path="/EventDispatcher.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361033360238" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/event_machine/LinkedListBasedEventDispatcher.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361002566855" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/event_machine/CoreEventType.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361003377246" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/event_machine/LinkedListBasedEventDispatcher.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361010448853" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/event_machine/EventDispatcher.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361008168048" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/event_machine/Event.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361003862250" ignored="false" />
+    <file path="/CoreEventType.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361003353478" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/IPacketPacket.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361003512252" ignored="false" />
+    <file path="/IPacketPacket.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361003907949" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/IPacketPacker.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361003615533" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/IPacketProcessoe.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361003656806" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/IPacketProcessor.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361014828784" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/Nimble.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361055470752" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/tcp/TcpAccepter.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361014378987" ignored="false" />
+    <file path="/TcpAccepter.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361014530980" ignored="false" />
+    <file path="/LinkedListBasedEventDispatcher.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361009128258" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/event_machine/ThreadSafeEventDispatcher.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361008194466" ignored="false" />
+    <file path="/ThreadSafeEventDispatcher.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361005956641" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/TcpAccepter.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361012202215" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/NimbleServer.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361014842901" ignored="false" />
+    <file path="/NimbleServer.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361055255583" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/event_machine/EventIO.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361014860867" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/event_machine/EventStack.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361012160938" ignored="false" />
+    <file path="/EventStack.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361055434306" ignored="false" />
+    <file path="/Accepter.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361009573820" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/Recepter.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361010186465" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/Receptor.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361015112434" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/events/ConnectionEvent.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361012891794" ignored="false" />
+    <file path="/ConnectionEvent.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361059426864" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/ConnectionsHolder.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361013257429" ignored="false" />
+    <file path="/ConnectionsHolder.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361032715114" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/ConnectionsHandler.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361013258334" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/tcp/ConnectionsHandler.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361035808596" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/tcp/TcpConnection.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361057562779" ignored="false" />
+    <file path="/TcpConnection.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361033527749" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/tcp/events/ConnectionEvent.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361035697977" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/tcp/TcpReceptor.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361059522250" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/server/Receptor.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361059027698" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/server/IPacketProcessor.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361033418354" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/EventIO.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361033631344" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/Event.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361052491696" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/CoreEventType.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361033318909" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/core/EventStack.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361055446541" ignored="false" />
+    <file path="/Event.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361052491696" ignored="false" />
+    <file path="/ConnectionsHandler.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361059362670" ignored="false" />
+    <file path="/TcpReceptor.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361059473144" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/tcp/Connection.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361035592690" ignored="false" />
+    <file path="/Connection.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361057561919" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/tcp/TcpConnectionsStack.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361061022251" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/tcp/events/TcpConnectionEvent.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361059436926" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/tcp/ConnectionEx.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361054059736" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/server/ServerUtils.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361061022251" ignored="false" />
+    <file path="/ServerUtils.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361061012469" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/server/IPacketProcessorFactory.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361056455726" ignored="false" />
+    <file path="/IPacketProcessorFactory.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361056449602" ignored="false" />
+    <file path="/TcpConnectionsStack.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361059538431" ignored="false" />
+    <file path="$PROJECT_DIR$/../nimble/src/com/ramshteks/nimble/tcp/TcpConnectionInfo.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361059320705" ignored="false" />
+    <file path="/TcpConnectionInfo.java" changelist="68c8de43-abaf-455c-846e-e04b84e4f7bf" time="1361059320705" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,68 +168,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="KeyMap.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/KeyMap.as">
+      <file leaf-file-name="HkmlBuildError.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ramshteks/hkml/HkmlBuildError.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="86" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#11#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HkmlBuildError.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlBuildError.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HkmlCompiler.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlCompiler.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="55" selection-start="4754" selection-end="4754" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HkmlKeyboardController.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlKeyboardController.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="1753" selection-end="1753" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1641#1677#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HkmlVM.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlVM.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="0" selection-start="2220" selection-end="2220" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KeysNode.as" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/KeysNode.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="141" column="29" selection-start="4072" selection-end="4072" vertical-scroll-proportion="0.91253644">
+            <state line="28" column="0" selection-start="1630" selection-end="1630" vertical-scroll-proportion="0.113065325">
               <folding />
             </state>
           </provider>
@@ -212,7 +231,7 @@
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -266,29 +285,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="keyboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hkml" />
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keyboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hkml" />
+              <option name="myItemId" value="ramshteks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -543,26 +544,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41148326" sideWeight="0.49695587" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41148326" sideWeight="0.49695587" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33333334" sideWeight="0.4977169" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32376397" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32376397" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24924242" sideWeight="0.23604466" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5885168" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67623603" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -637,14 +638,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlCompiler.as">
+    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/hkml/HkmlCompiler.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="4" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/KeysNode.as">
+    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/hkml/KeysNode.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="106" column="51" selection-start="2211" selection-end="2211" vertical-scroll-proportion="0.0">
           <folding />
@@ -665,21 +666,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlCompiler.as">
+    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/hkml/HkmlCompiler.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/KeysNode.as">
+    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/hkml/KeysNode.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="4" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlEvent.as">
+    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/hkml/HkmlEvent.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="0" selection-start="1667" selection-end="1667" vertical-scroll-proportion="0.0">
           <folding />
@@ -693,55 +694,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/KeyMap.as">
+    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/hkml/KeysNode.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.0">
+        <state line="141" column="29" selection-start="4072" selection-end="4072" vertical-scroll-proportion="0.91253644">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/hkml/HkmlVM.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="0" selection-start="2220" selection-end="2220" vertical-scroll-proportion="-1.6326531">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/hkml/HkmlKeyboardController.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="1753" selection-end="1753" vertical-scroll-proportion="-1.728863">
+          <folding>
+            <element signature="e#1632#1668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/hkml/HkmlCompiler.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="55" selection-start="4754" selection-end="4754" vertical-scroll-proportion="4.8542275">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="86" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.0">
+        <state line="27" column="86" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.37900874">
           <folding>
-            <element signature="e#11#59#0" expanded="true" />
+            <element signature="e#11#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlBuildError.as">
+    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/hkml/HkmlBuildError.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlCompiler.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="55" selection-start="4754" selection-end="4754" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlKeyboardController.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1753" selection-end="1753" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1641#1677#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/HkmlVM.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="2220" selection-end="2220" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ramshteks/keyboard/hkml/KeysNode.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="29" selection-start="4072" selection-end="4072" vertical-scroll-proportion="0.91253644">
+        <state line="28" column="0" selection-start="1630" selection-end="1630" vertical-scroll-proportion="0.113065325">
           <folding />
         </state>
       </provider>
